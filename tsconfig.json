@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "es2015",
+    // Object.fromEntries
+    "lib": ["dom", "esnext", "es2019.object"],
+    "declaration": true,
+    //"composite": true,
+    "emitDeclarationOnly": true,
+    "isolatedModules": true,
+    "removeComments": true,
+    "importHelpers": true,
+
+    "strict": true,
+
+    "noImplicitAny": false, 
+
+    /* Additional Checks */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+
+    /* Module Resolution Options */
+    "moduleResolution": "node",
+    /* This needs to be false so our types are possible to consume without setting this */
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+
+    "rootDir": "src",
+    "outDir": "dist"
+  },
+  "exclude": [
+    ".yarn/releases/*",
+    "**/tests/**/*",
+    "**/__mocks__/**/*",
+    "**/dist/**/*"
+  ]
+  // "references": [{"path": "../jest-types"}, {"path": "../jest-util"}]
+}
