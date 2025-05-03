@@ -38,7 +38,7 @@
         "@rollup/plugin-commonjs": "^24.0.1",
         "@rollup/plugin-replace": "^5.0.2",
         "@rollup/plugin-typescript": "^11.0.0",
-        "@sinclair/typebox": "^0.25.24",
+        "@sinclair/typebox": "^0.34.33",
         "@types/react": "^18.0.0",
         "@types/react-is": "^17.0.0",
         "@types/react-test-renderer": "^18.0.0",
